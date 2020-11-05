@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Adriena Wong | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/self.jpg" alt="" /></span>
+							<h1 id="title">Adriena Wong</h1>
+							<!-- <p>Data Science Student</p> -->
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Projects</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://github.com/atwong88" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/adriena-wong/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:atwong88@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Adriena</strong>, a data science student from Toronto, Canada and welcome to my portfolio.</h2>
+								<!-- <p>Thank you for visiting! <br /> -->
+								</p>
+							</header>
+							
+							<footer>
+								<h5><a href="https://drive.google.com/file/d/1U_ChCfdxx4XAlR93KBnCw2-hVc6gFNgQ/view?usp=sharing">Click to view my resume</a></h5>
+								<!-- <a href="#portfolio" class="button scrolly">Continue to Projects</a> -->
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Projects</h2>
+							</header>
+
+							<p>Here are a few of the data projects I've recently worked on.</p>
+
+							<div class="row">
+								<div class="col-6 col-12-mobile">
+									<article class="item">
+										<a href="#popup1" rel="modal:open" class="image fit"><img src="images/wiki.png" alt="" /></a>
+										<header>
+											<h3><a href="#popup1" rel="modal:open">WikiPlugin</a></h3>
+											<p>
+												A Chrome extension and Flask webpage showing interesting analystics and read-time estimations based on a model trained to predict article difficulty using
+												both the graphical nature of Wikipedia's internal hyperlinks and the semantic information of each article.
+											</p>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#popup2" rel="modal:open" class="image fit"><img src="images/twitter.jpg" alt="" /></a>
+										<header>
+											<h3><a href="#popup2" rel="modal:open">Twitter Toxicity Detection</a></h3>
+											<p>
+												A toxicity classifier for tweets using transfer learning using a model trained on Wikipedia comment toxicity. We also considered the context of the Twitter 
+												community surrounding each tweet and other measurable language differences between Twitter communities.
+											</p>
+										</header>
+									</article>
+									<article class="item">
+										<a href="https://medium.com/sfu-cspmp/various-approaches-towards-data-privacy-with-python-differential-privacy-and-homomorphic-a748e560d43b" class="image fit"><img src="images/medium.gif" alt="" /></a>
+										<header>
+											<h3><a href="https://medium.com/sfu-cspmp/various-approaches-towards-data-privacy-with-python-differential-privacy-and-homomorphic-a748e560d43b">Various Approaches towards Data Privacy with Python</a></h3>
+											<p>
+												A Medium article examining data privacy issues for data scientists. 
+												Includes broad introductory explanations of differential privacy and homomorphic encryption as possible approaches to data privacy.
+											</p>
+										</header>
+									</article>
+								</div>
+								<div class="col-6 col-12-mobile">
+									<article class="item">
+										<a href="#popup3" rel="modal:open" class="image fit"><img src="images/webstyle.png" alt="" /></a>
+										<header>
+											<h3><a href="#popup3" rel="modal:open">Website/Blog Style Recommender</a></h3>
+											<p>
+												Colours and fonts have a huge impact on how visitors view your online content, whether it's a company website or a personal blog. 
+												Get the best colours and fonts for your website/blog with the Web Crawl Style Creator. 
+												It compares your website/blog's typical text content with other similar websites/blogs in order to recommend you the perfect style!
+											</p>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#popup4" rel="modal:open" class="image fit"><img src="images/ddos.jpg" alt="" /></a>
+										<header>
+											<h3><a href="#popup4" rel="modal:open">Network Intrusion Detection</a></h3>
+											<p>
+												This project uses various deep learning models, such as Feed Forward Networks, Long-Short Term Memory, and Echo State Networks
+												to enhance the detection of denial of service attacks on the CSE-CIC-IDS2018 datasets.
+											</p>
+										</header>
+									</article>
+								</div>
+							</div>
+							<div id="popup1" class="modal">
+								<h3>Project Overview</h3>
+								<p><b>Date:</b> Jan 2020 - Apr 2020<br><br>
+									<b>Team Members:</b> 5 SFU Big Data students in the Big Data Programming II course<br><br>
+									<b>My Contributions:</b><br><br>
+									- Project idea brainstorming, project planning, presentations, and report writing<br><br>
+									- Text pre-processing for Wikipedia article text including data cleaning and conversion to word vector representation<br><br>
+									- Model feature generation including LDA topic modelling, average word vector representation of each article, and joining all necessary features to be trained<br><br>
+									- Developed the Wikipedia Chrome plugin which involved re-colouring hyperlinks in current Wikipedia article according to relative topic importance and linking the plugin to our model results saved in a database<br><br>
+									<b><a href="https://github.com/atwong88/WikiPlugin/blob/master/final_report.pdf">Click to view the full report</a></b><br><br>
+									<b><a href="https://www.youtube.com/watch?v=wO0qmZpI590">Click to view the project video</a></b><br><br>
+									<b><a href="https://github.com/atwong88/WikiPlugin">Click to go to the project repository</a></b><br><br>					
+								</p>
+							</div>
+							<div id="popup2" class="modal">
+								<h3>Twitter Toxicity Detection</h3>
+								<p><b>Date:</b> Jan 2020 - Apr 2020<br><br>
+									<b>Team Members:</b> 3 SFU Big Data students in the Natural Language Processing course<br><br>
+									<b>My Contributions:</b><br><br>
+									- Project idea brainstorming, project planning, and report writing<br><br>
+									- LDA topic modelling<br><br>
+									- Exporatory data analysis on Twitter tweets and Wikipedia comments datasets such as emoji usage and time of day<br><br>
+									- Experimenting with different models such as bi-directioal GRU and CNN, and with different pre-trained word embeddings including Word2Vec, GloVe, FastText<br><br>
+									<b><a href="https://github.com/atwong88/TwitterToxicityDetection/blob/master/report.pdf">Click to view the full report</a></b><br><br>
+									<b><a href="https://github.com/atwong88/TwitterToxicityDetection">Click to go to the project repository</a></b><br><br>				
+								</p>
+							</div>
+							<div id="popup3" class="modal">
+								<h3>Website/Blog Style Recommender</h3>
+								<p><b>Date:</b> Sep 2019 - Dec 2019<br><br>
+									<b>Team Members:</b> 4 SFU Big Data students in the Big Data Programming I course<br><br>
+									<b>My Contributions:</b><br><br>
+									- Project idea brainstorming, project planning, and report writing<br><br>
+									- Webscraping Amazon's Alexa Top Websites to generate large dataset of websites by category using Python's BeautifulSoup4<br><br>
+									- Developing program to recursively retrieve Tumblr blog information<br><br>
+									- Created 3D graph to visualize the usage of colours in websites vs blogs using matplotlib's pyplot<br><br>
+									<b><a href="https://github.com/atwong88/WebStyleGenerator/blob/master/Report.pdf">Click to view the full report</a></b><br><br>
+									<b><a href="https://github.com/atwong88/WebStyleGenerator">Click to go to the project repository</a></b><br><br>				
+								</p>
+							</div>
+							<div id="popup4" class="modal">
+								<h3>Network Intrusion Detection</h3>
+								<p><b>Date:</b> Sep 2019 - Dec 2019<br><br>
+									<b>Team Members:</b> 4 SFU Big Data students in the Machine Learning course<br><br>
+									<b>My Contributions:</b><br><br>
+									- Project planning, presentation poster creation, and report writing<br><br>
+									- Experimented with using Echo State Networks including development and testing<br><br>
+									- Contributed to feature importancce analysis for FFNN model<br><br>
+									<b><a href="https://github.com/atwong88/NetworkIntrusionDetection/blob/master/final_report.pdf">Click to view the full report</a></b><br><br>
+									<b><a href="https://github.com/atwong88/NetworkIntrusionDetection/blob/master/final_poster.pdf">Click to view the project poster</a></b><br><br>
+									<b><a href="https://github.com/atwong88/NetworkIntrusionDetection">Click to go to the project repository</a></b><br><br>				
+								</p>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a class="image centred"><img src="images/self2.jpg" alt="" /></a>
+
+							<p align="left">Throughout my years as a student, I was incredibly indecisive about what I wanted to study, even choosing a program that offered two degrees: mathematics and business, since there were aspects of both disciplines that interested me.
+								Eventually, I would also add computer science to that list after taking my first few programming courses and loving the subject.
+								When I was finally introduced to data science and analytics, I was ecstatic to find that it blends all my favourite subjects together.
+								When I completed my first data science project, involving web-scraping visual properties from thousands of websites and blogs in hopes of finding patterns and insights from the data, I realized that there was so much more we could learn from all the data in this world.
+								Ever since, I have been trying to learn as much as I can about the subject while improving my data science skillset, hoping to be able to uncover more interesting findings in our world's data.
+								<br>
+								<br>
+								I am currently a student in the Professional Master's of Computing Science specializing in Big Data at Simon Fraser University in Burnaby, British Columbia and will be graduating in April 2021. 
+								When I'm not thinking about data, you can find me delving into my other interests such as painting, playing video games, or improving my musical skills through piano and acoustic guitar.<br><br>
+								For any inquiries, please reach me via LinkedIn or email.</p>
+
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
